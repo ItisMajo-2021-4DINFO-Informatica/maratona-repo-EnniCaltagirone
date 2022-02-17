@@ -9,9 +9,9 @@ namespace CaltagironeMaratonaApp
     class Maratona
     {
         public string Nome { get; set; }
-        public string Società { get; set; }
+        public string Societa { get; set; }
         public int TempoInMinuti { get; set; }
-        public string Città { get; set; }
+        public string Citta { get; set; }
 
     }
 }

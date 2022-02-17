@@ -54,11 +54,11 @@ namespace CaltagironeMaratonaApp
 
                         unaMaratona.Nome = campi[0];
 
-                        unaMaratona.Società = campi[1];
+                        unaMaratona.Societa = campi[1];
 
                         unaMaratona.TempoInMinuti = TrasformaTempo(campi[2]);
 
-                        unaMaratona.Città = campi[3];
+                        unaMaratona.Citta = campi[3];
 
                         Aggiungi(unaMaratona);
 
@@ -66,19 +66,41 @@ namespace CaltagironeMaratonaApp
                 }
             }
         }
-        public string CercaAtleta(string Atleta, string Città)
+        public string CercaAtleta(string Atleta, string Citta)
         {
             string tempo="";
-            tempo.ToString();
             foreach (var Maratona in Elenco)
             {
-                if (Maratona.Nome == Atleta && Maratona.Città == Città)
+                if (Maratona.Nome == Atleta && Maratona.Citta == Citta)
                 {
                     tempo = Maratona.TempoInMinuti.ToString();
-                    tempo.ToString();
                 }
             }
             return tempo;
+        }
+        public string AtletiPerCitta(string Citta)
+        {
+            string atleti = "";
+            foreach (var Maratona in Elenco)
+            {
+                if (Maratona.Citta == Citta)
+                {
+                    atleti = Maratona.Nome;
+                }
+            }
+            return atleti;
+        }
+        public void ScriviDaFile()
+        {
+            using (FileStream flussoDati = new FileStream("maratona.txt", FileMode.CreateNew, FileAccess.Write))
+            {
+                StreamWriter scrittore = new StreamWriter(flussoDati);
+                foreach (var Maratona in Elenco)
+                {
+                    scrittore.WriteLine(Elenco.ConcatenaValori());
+                }
+                scrittore.Flush();
+            }
         }
     }
 }

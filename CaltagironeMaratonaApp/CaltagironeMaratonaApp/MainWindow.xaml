@@ -5,15 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CaltagironeMaratonaApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="378">
+        Title="MainWindow" Height="612" Width="548">
     <StackPanel>
         <Button x:Name="BtnLeggiFile" Content="Leggi file" Click="BtnLeggiFile_Click"></Button>
         <DataGrid x:Name="DgElencoMaratone" Height="300" />
         <Label Content="Inserisci il nome di un atleta"/>
-        <TextBox x:Name="TxtAtleta" TextWrapping="Wrap" Width="378"/>
-        <Label Content="Inserisci la città di un atleta"/>
-        <TextBox x:Name="TxtCittà" TextWrapping="Wrap" Width="378"/>
+        <TextBox x:Name="TxtAtleta" TextWrapping="Wrap"/>
+        <Label Content="Inserisci la citta di un atleta"/>
+        <TextBox x:Name="TxtCitta" TextWrapping="Wrap"/>
         <Button x:Name="BtnTempo" Content="Tempo" Click="BtnTempo_Click"/>
-        <Label x:Name="LblTempo" Height="30"/>
+        <Label x:Name="LblTempo" Height="23"/>
+        <Label Content="Dammi la citta per scoprire gli atleti che ci gareggiano"/>
+        <TextBox x:Name="TxtCittaAtleti" TextWrapping="Wrap"/>
+        <Button x:Name="BtnAtletiPerCitta" Content="Atleti" Click="BtnAtletiPerCitta_Click"/>
+        <Label x:Name="LblAtleti" Height="23"/>
+        <Button x:Name="BtnScriviDaFile" Content="Salva sul file" Click="BtnScriviDaFile_Click"/>
     </StackPanel>
 </Window>

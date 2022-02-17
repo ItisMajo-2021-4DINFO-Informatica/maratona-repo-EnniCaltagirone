@@ -36,9 +36,21 @@ namespace CaltagironeMaratonaApp
         private void BtnTempo_Click(object sender, RoutedEventArgs e)
         {
             string Atleta = TxtAtleta.Text;
-            string Città = TxtCittà.Text;
-            string TempoTrovato = elenco.CercaAtleta(Atleta,Città);
-            LblTempo.Content = TempoTrovato;
+            string Citta = TxtCitta.Text;
+            string TempoTrovato = elenco.CercaAtleta(Atleta,Citta);
+            LblTempo.Content = "Il tempo impiegato é "+ TempoTrovato +" minuti";
+        }
+
+        private void BtnAtletiPerCitta_Click(object sender, RoutedEventArgs e)
+        {
+            string Citta = TxtCitta.Text;
+            string AtletiTrovati = elenco.AtletiPerCitta(Citta);
+            LblAtleti.Content = "Gli atleti partecipanti sono: " + AtletiTrovati;
+        }
+
+        private void BtnScriviDaFile_Click(object sender, RoutedEventArgs e)
+        {
+           
         }
     }
 }

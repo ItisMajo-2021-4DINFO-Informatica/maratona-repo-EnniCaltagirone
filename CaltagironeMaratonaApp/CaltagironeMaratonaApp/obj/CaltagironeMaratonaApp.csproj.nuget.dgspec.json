@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Utente\\Desktop\\CaltagironeMaratonaApp\\CaltagironeMaratonaApp\\CaltagironeMaratonaApp.csproj": {}
+    "C:\\Users\\Enni\\OneDrive\\Documenti\\Scuola\\informatica\\maratona-repo-EnniCaltagirone\\CaltagironeMaratonaApp\\CaltagironeMaratonaApp\\CaltagironeMaratonaApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Utente\\Desktop\\CaltagironeMaratonaApp\\CaltagironeMaratonaApp\\CaltagironeMaratonaApp.csproj": {
+    "C:\\Users\\Enni\\OneDrive\\Documenti\\Scuola\\informatica\\maratona-repo-EnniCaltagirone\\CaltagironeMaratonaApp\\CaltagironeMaratonaApp\\CaltagironeMaratonaApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utente\\Desktop\\CaltagironeMaratonaApp\\CaltagironeMaratonaApp\\CaltagironeMaratonaApp.csproj",
+        "projectUniqueName": "C:\\Users\\Enni\\OneDrive\\Documenti\\Scuola\\informatica\\maratona-repo-EnniCaltagirone\\CaltagironeMaratonaApp\\CaltagironeMaratonaApp\\CaltagironeMaratonaApp.csproj",
         "projectName": "CaltagironeMaratonaApp",
-        "projectPath": "C:\\Users\\Utente\\Desktop\\CaltagironeMaratonaApp\\CaltagironeMaratonaApp\\CaltagironeMaratonaApp.csproj",
-        "packagesPath": "C:\\Users\\Utente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utente\\Desktop\\CaltagironeMaratonaApp\\CaltagironeMaratonaApp\\obj\\",
+        "projectPath": "C:\\Users\\Enni\\OneDrive\\Documenti\\Scuola\\informatica\\maratona-repo-EnniCaltagirone\\CaltagironeMaratonaApp\\CaltagironeMaratonaApp\\CaltagironeMaratonaApp.csproj",
+        "packagesPath": "C:\\Users\\Enni\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Enni\\OneDrive\\Documenti\\Scuola\\informatica\\maratona-repo-EnniCaltagirone\\CaltagironeMaratonaApp\\CaltagironeMaratonaApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Utente\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Enni\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -62,7 +61,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
