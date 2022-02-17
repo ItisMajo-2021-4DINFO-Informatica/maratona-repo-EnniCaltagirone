@@ -1,0 +1,19 @@
+﻿<Window x:Class="CaltagironeMaratonaApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CaltagironeMaratonaApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="378">
+    <StackPanel>
+        <Button x:Name="BtnLeggiFile" Content="Leggi file" Click="BtnLeggiFile_Click"></Button>
+        <DataGrid x:Name="DgElencoMaratone" Height="300" />
+        <Label Content="Inserisci il nome di un atleta"/>
+        <TextBox x:Name="TxtAtleta" TextWrapping="Wrap" Width="378"/>
+        <Label Content="Inserisci la città di un atleta"/>
+        <TextBox x:Name="TxtCittà" TextWrapping="Wrap" Width="378"/>
+        <Button x:Name="BtnTempo" Content="Tempo" Click="BtnTempo_Click"/>
+        <Label x:Name="LblTempo" Height="30"/>
+    </StackPanel>
+</Window>
